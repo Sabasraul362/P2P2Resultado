@@ -1,2 +1,10 @@
-# P2P2Resultado
-P2
+double n1 = 10;
+double n2 = 5;
+        
+//suma
+Suma sum = new Suma(n1,n2);
+sum.mostrarResultado();
+        
+//resta
+Resta res = new Resta(n1,n2);
+res.mostrarResultado();
